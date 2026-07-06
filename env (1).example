@@ -1,0 +1,14 @@
+# Your custom app's Client secret (Shopify admin > Settings > Apps and sales channels
+# > Develop apps > [your app] > API credentials)
+SHOPIFY_API_SECRET=
+
+# Admin API access token from the same app, with the `write_customers` scope
+SHOPIFY_ADMIN_TOKEN=
+
+# Your store's .myshopify.com domain, no protocol
+SHOPIFY_STORE_DOMAIN=your-store.myshopify.com
+
+# Optional, defaults to a recent stable version
+ADMIN_API_VERSION=2026-04
+
+PORT=3000
